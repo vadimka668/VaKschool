@@ -1,0 +1,87 @@
+header{
+    width:100%;
+    margin:0;
+    background-color: rgb(242, 255, 254);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    min-height: 100%;
+    width: 100%;
+}
+
+footer{
+    float:buttom;
+}
+
+.navBar{
+    padding-top: 0;
+    float:right;
+}
+
+.navBar ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.navBar ul li a{
+    text-decoration:none;
+    color:black;
+    font-size: 125%;
+}
+
+.navBar ul li a:hover{
+    color:rgb(23, 31, 32);
+}
+
+.singIn {
+	appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.singIn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+
+.singIn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    cursor: pointer
+}
+
+.singIn:active {
+	background-color: #62daff;
+}
+
+.singIn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
+
+.logo{
+    margin-left: 0.5%;
+    margin-top: 0.3%;
+}
+
+.singIng{
+    min-height: 100%;
+    min-width: 100%;
+    /* background: url("https://funart.pro/uploads/posts/2021-04/thumbs/1618456542_4-funart_pro-p-oboi-fon-yarkii-sinii-fon-4.jpg")  0 0/100% 100% no-repeat; */
+    background-image: url('https://funart.pro/uploads/posts/2021-04/thumbs/1618456542_4-funart_pro-p-oboi-fon-yarkii-sinii-fon-4.jpg'); 
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
